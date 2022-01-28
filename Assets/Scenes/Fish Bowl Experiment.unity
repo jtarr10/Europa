@@ -133,7 +133,6 @@ GameObject:
   m_Component:
   - component: {fileID: 325146942}
   - component: {fileID: 325146943}
-  - component: {fileID: 325146944}
   m_Layer: 0
   m_Name: SeaLifeManager
   m_TagString: Untagged
@@ -168,34 +167,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fishPrefab: {fileID: 5097941572490936559, guid: 6cfacd0dab87b9545a7ec44b525fada8, type: 3}
-  numberOfBoids: 50
---- !u!68 &325146944
-EdgeCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 325146941}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_EdgeRadius: 0
-  m_Points:
-  - {x: 8.54906, y: 5.4560146}
-  - {x: 8.546568, y: 4.4901195}
-  - {x: 8.532823, y: -5.0532484}
-  - {x: -8.758474, y: -5.0548725}
-  - {x: -8.744303, y: 4.967949}
-  - {x: 8.541667, y: 4.967949}
-  - {x: 8.475419, y: 4.9354115}
-  m_AdjacentStartPoint: {x: 0, y: 0}
-  m_AdjacentEndPoint: {x: 0, y: 0}
-  m_UseAdjacentStartPoint: 0
-  m_UseAdjacentEndPoint: 0
+  numberOfBoids: 100
+  alignment: 1
+  cohesion: 0.66
+  seperation: 2
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
